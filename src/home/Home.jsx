@@ -31,8 +31,11 @@ const Home = () => {
 
 
             <section>
-            <p className='bg-[#777334] text-white text-3xl text-center m-2 rounded-lg py-2 px-20'>
+            <p className='bg-[#777334] text-white text-3xl text-center m-2 rounded-lg py-2 px-20 my-5'>
                   Information: 01713 42 90 60 
+                </p>
+                <p className='border-double border-[6px] rounded-lg mx-2 border-black text-3xl p-2 my-5'>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto iure ducimus natus atque fuga, voluptatem consequuntur soluta delectus eos! Ab, in unde! Non facilis, nemo libero velit consectetur laboriosam voluptates dicta nihil.
                 </p>
             </section>
         </div>
