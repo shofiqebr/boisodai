@@ -1,9 +1,11 @@
-import banner from '../assets/banner.png'
+import { FaHandPointRight, FaRegHandPointDown } from 'react-icons/fa';
+import qbq from '../assets/QBQ-Image-1.jpg'
+import './Home.css'
 
 const Home = () => {
     return (
         <div>
-            <section className='bg-[#f58255] pb-5'>
+            {/* <section className='bg-[#f58255] pb-5'>
                 <div className='px-2 py-10 '>
 
                 <img className='rounded-xl h-80'  src={banner} alt="" />
@@ -37,7 +39,33 @@ const Home = () => {
                 <p className='border-double border-[6px] rounded-lg mx-2 border-black text-3xl p-2 my-5'>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto iure ducimus natus atque fuga, voluptatem consequuntur soluta delectus eos! Ab, in unde! Non facilis, nemo libero velit consectetur laboriosam voluptates dicta nihil.
                 </p>
+            </section> */}
+
+          <div className='flex md:flex-row flex-col gap-10 bg-[#E4965D] lg:px-56  md:py-20'>
+
+            <section className="md:w-1/2 ">
+                        <img className='rounded-xl' src={qbq} alt="" />
             </section>
+            <section >
+                <p className='text-xl font-medium'>বিষয় ভিত্তিক</p>
+
+                <h1 className='text-4xl font-semibold py-2'>তাফসীরুল কুরআন বিল কুরআন</h1>
+
+                <div className='Allign'><FaHandPointRight className='icon' /> <p className='Text'>লেখকঃ শাইখ আবদুর রহমান বিন মুবারক আলী</p></div>
+                <div className='Allign'><FaHandPointRight className=' text-white text-[] ' /> <p className='Text'>কুরআনের আলোকে ১৪ বছর গবেষনার বাংলা ব্যাখ্যা সহ বিষয়ভিত্তিক সমাধান</p></div>
+                <div className='Allign'><FaHandPointRight className='icon' /> <p className='Text'>পবিত্র কুরআন দিয়ে কুরআনের তাফসীর</p></div>
+                <div className='Allign'><FaHandPointRight className='icon' /> <p className='Text'>সর্বোচ্চ বিক্রিত তাফসির কিতাব</p></div>
+
+                <div>
+                হাদিয়াঃ ১০৯০/- টাকা
+                </div>
+
+                <p>সারাদেশে ক্যাশ অন হোম ডেলিভারি</p>
+
+                <button>অর্ডার করতে এখানে ক্লিক করুন <FaRegHandPointDown /> </button>
+
+            </section>
+          </div>
         </div>
     );
 };
